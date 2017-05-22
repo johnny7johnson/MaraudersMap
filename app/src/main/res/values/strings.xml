@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Marauder\'s Map</string>
+    <string name="title_activity_maps">Marauder\'s Map</string>
+    <string name="retrofit_failure">Unfortunately something went wrong with your request.</string>
+    <string name="http_failure">Something went wrong, HTTP status code is != 200.</string>
+    <string name="google_maps_key">AIzaSyC2KY-3WZlImX_9K23VM68Rk_mvLbqzaAE</string>
+    <!--
+    <string name="google_maps_key">AIzaSyCgq5uuCb9LLtEw2oIgKj4AKB03onTlSFs</string>
+    -->
+    <string name="ldap"></string>
+    <string name="username"></string>
+    <string name="authToken"></string>
+    <string name="menu_map">Menu</string>
+    <string name="updaterate">Change Updaterate</string>
+    <string name="switchUser">Sign in with other User</string>
+    <string name="renameUser">Change Username</string>
+    <string name="searchUser">Search for User</string>
+    <string name="changeRadius">Change Radius</string>
+</resources>

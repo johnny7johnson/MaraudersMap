@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    android:title="Menu"
+
+    <item
+        android:id="@+id/updaterate"
+        android:title="@string/updaterate" />
+
+    <item
+        android:id="@+id/renameUser"
+        android:title="@string/renameUser" />
+
+    <item
+        android:id="@+id/switchUser"
+        android:title="@string/switchUser" />
+
+    <item
+        android:id="@+id/searchUser"
+        android:title="@string/searchUser" />
+
+    <item
+        android:id="@+id/changeRadius"
+        android:title="@string/changeRadius" />
+
+</menu>

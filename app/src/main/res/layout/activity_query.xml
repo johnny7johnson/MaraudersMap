@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/altes_leder_braun">
+
+    <TextView
+        android:text="Please enter your username and ldap:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/requestText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/wallet_holo_blue_light" />
+
+    <Button
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/okButton"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/ldapText"
+        android:layout_toRightOf="@+id/ldapText"
+        android:layout_toEndOf="@+id/ldapText"
+        android:background="@color/schickesbraun"
+        android:textColor="@color/wallet_holo_blue_light"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usernameText"
+        android:textSize="18sp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/requestText"
+        android:layout_alignLeft="@+id/requestText"
+        android:layout_alignStart="@+id/requestText"
+        android:shadowColor="@color/lawngreen"
+        android:background="@drawable/edittext_lines"
+        android:hint="Max Mustermann" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/ldapText"
+        android:layout_below="@+id/usernameText"
+        android:layout_alignLeft="@+id/usernameText"
+        android:layout_alignStart="@+id/usernameText"
+        android:shadowColor="@color/lawngreen"
+        android:background="@drawable/edittext_lines"
+        android:hint="ldap" />
+
+    <TextView
+        android:text="or try to:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/ortryText"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/wallet_holo_blue_light"
+        android:layout_below="@+id/okButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:background="@color/schickesbraun"
+        android:textColor="@color/wallet_holo_blue_light"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/logInLdapInput"
+        android:layout_toRightOf="@+id/ortryText"
+        android:layout_toEndOf="@+id/ortryText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/logInLdapInput"
+        android:hint="your Ldap"
+        android:background="@drawable/edittext_lines"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/ortryText"
+        android:layout_toLeftOf="@+id/okButton"
+        android:layout_toStartOf="@+id/okButton" />
+
+</RelativeLayout>
